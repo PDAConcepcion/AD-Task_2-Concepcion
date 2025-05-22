@@ -1,7 +1,7 @@
 <?php
     $navLinks = [
-        'Home' => ' ',
-        'Hero Card' => ' '
+        'Home' => '/index.php',
+        'Hero Card' => '/page/hero_cards.php'
     ];
     $copryright_name = "Patrick Concepcion";
     $varcards = [
