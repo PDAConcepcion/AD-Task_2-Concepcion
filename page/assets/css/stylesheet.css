@@ -165,17 +165,18 @@ body {
 
 .additional-info {
     margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    padding: 0 20px;
 }
 
 .hp,
 .role {
+    border: 3px solid #ffffff10;
     color: #fff;
     font-size: 1.5rem;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding: 20px;
     text-shadow: 1px 1px 6px #9b9b9b, 0 0 2px #000;
 }
 
