@@ -12,8 +12,9 @@
                 "health" => "550",
                 "role" => "Vanguard"
             ],
-            "card_dir" => "/page/assets/img/cards/Emma Frost.png",
-            "card_alt" => "Emma Frost"
+            "card_dir" => "Emma Frost.png",
+            "card_alt" => "Emma Frost",
+            "card_ID" => "emma-frost"
         ],
         [
             "name" => "PSYLOCKE",
@@ -22,8 +23,9 @@
                 "health" => "250",
                 "role" => "Duelist"
             ],
-            "card_dir" => "/page/assets/img/cards/Psylocke.png",
-            "card_alt" => "Psylocke"
+            "card_dir" => "Psylocke.png",
+            "card_alt" => "Psylocke",
+            "card_ID" => "psylocke"
         ],
         [
             "name" => "LOKI",
@@ -32,8 +34,9 @@
                 "health" => "250",
                 "role" => "Strategist"
             ],
-            "card_dir" => "/page/assets/img/cards/Loki.png",
-            "card_alt" => "Loki"
+            "card_dir" => "Loki.png",
+            "card_alt" => "Loki",
+            "card_ID" => "loki"
         ],
         [
             "name" => "SPIDER-MAN",
@@ -42,8 +45,9 @@
                 "health" => "250",
                 "role" => "Duelist"
             ],
-            "card_dir" => "/page/assets/img/cards/Spider-Man.png",
-            "card_alt" => "Spider-Man"
+            "card_dir" => "Spider-Man.png",
+            "card_alt" => "Spider-Man",
+            "card_ID" => "spider-man"
         ],
         [
             "name" => "LUNA SNOW",
@@ -52,8 +56,9 @@
                 "health" => "275",
                 "role" => "Strategist"
             ],
-            "card_dir" => "/page/assets/img/cards/Luna Snow.png",
-            "card_alt" => "Luna Snow"
+            "card_dir" => "Luna Snow.png",
+            "card_alt" => "Luna Snow",
+            "card_ID" => "luna-snow"
         ],
         [
             "name" => "DOCTOR STRANGE",
@@ -62,8 +67,9 @@
                 "health" => "600",
                 "role" => "Vanguard"
             ],
-            "card_dir" => "/page/assets/img/cards/Doctor Strange.png",
-            "card_alt" => "Doctor Strange"
+            "card_dir" => "Doctor Strange.png",
+            "card_alt" => "Doctor Strange",
+            "card_ID" => "doctor-strange"
         ]
     ];
         //schema
@@ -75,6 +81,7 @@
         //         "role" => ""
         //     ],
         //     "card_dir" => " ",
-        //     "card_alt" => " "
+        //     "card_alt" => " ",
+        //     "card_ID" => " "
         // ]
 ?>

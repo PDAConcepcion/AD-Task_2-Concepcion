@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -71,6 +72,111 @@ body {
 .home div button:hover {
     background: linear-gradient(180deg, #8b2100 0%, #8b2100 100%);
     transform: scale(1.05);
+}
+
+.card-container {
+    background-color: #8f816f;
+    margin-top: 90px;
+    padding: 40px 0;
+    min-width: none;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px 300px;
+}
+
+.card {
+    padding: 80px 40px;
+    width: 600px;
+    height: 750px;
+    margin: 50px auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+#emma-frost {
+    background: linear-gradient(45deg, #2838a0 0%, #dddddd 100%);
+    box-shadow: 0 4px 16px rgba(122, 122, 122, 0.705);
+}
+
+#psylocke {
+    background: linear-gradient(45deg, #c78ce2 0%, #ec7070 100%);
+    box-shadow: 0 4px 16px rgba(122, 122, 122, 0.705);
+}
+
+#loki {
+    background: linear-gradient(45deg, #79d367 0%, #c2b725 100%);
+    box-shadow: 0 4px 16px rgba(122, 122, 122, 0.705);
+}
+
+#spider-man {
+    background: linear-gradient(45deg, #fc7171 0%, #7a9cf8 100%);
+    box-shadow: 0 4px 16px rgba(122, 122, 122, 0.705);
+}
+    
+#luna-snow {
+    background: linear-gradient(45deg, #3f72ff 0%, #abf3f3 100%);
+    box-shadow: 0 4px 16px rgba(122, 122, 122, 0.705);
+}
+
+#doctor-strange {
+    background: linear-gradient(45deg, #ec3434 0%, #464646 100%);
+    box-shadow: 0 4px 16px rgba(122, 122, 122, 0.705);
+}
+
+.card-image-container {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border: 5px solid #ffffff10;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-header {
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    align-self: center;
+    text-shadow: 2px 2px 8px #9b9b9b, 0 0 4px #000;
+}
+
+.card-description {
+    padding: 20px;
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: justify;
+    text-shadow: 1px 1px 6px #9b9b9b, 0 0 2px #000;
+
+}
+
+.additional-info {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.hp,
+.role {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-shadow: 1px 1px 6px #9b9b9b, 0 0 2px #000;
 }
 
 .nav-container {
