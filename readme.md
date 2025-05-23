@@ -10,6 +10,6 @@ A simple PHP web project that displays Marvel Rivals hero cards in a responsive 
 - Modular PHP includes for navigation bar, footer, and variables
 - Easy to add or modify hero cards via a single variables file
 
-##License
+## License
 
 This project is for educational purposes.
