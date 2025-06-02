@@ -1,0 +1,16 @@
+{
+    "name": "patrickconcepcion/ad-task_2-concepcion",
+    "description": "Project",
+    "autoload": {
+        "psr-4": {
+            "Patrickconcepcion\\AdTask2Concepcion\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PDAConcepcion",
+            "email": "202311772@fit.edu.ph"
+        }
+    ],
+    "require": {}
+}
