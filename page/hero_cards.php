@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include __DIR__ . '/../components/global/head.php'; ?>
 
-<?php  include BASE_PATH .  "/components/global/head.php" ?>
 
 <body class="hero-cards">
 
-    <?php  include BASE_PATH .  "/components/global/variables.php" ?>
-    <?php  include BASE_PATH .  "/components/global/navigationbar.php" ?>
-    <?php  include BASE_PATH .  "/utils/filepath.php" ?>
+<?php include __DIR__ . '/../components/global/variables.php'; ?>
+<?php include __DIR__ . '/../components/global/navigationbar.php'; ?>
+<?php include __DIR__ . '/../utils/filepath.php'; ?>
 
     <section class="card-container">
         <div class="card-box">
@@ -27,7 +25,7 @@
         </div>
     </section>
 
-    <?php  include BASE_PATH .  "/components/global/footer.php" ?>
+<?php include __DIR__ . '/../components/global/footer.php'; ?>
 
 </body>
 

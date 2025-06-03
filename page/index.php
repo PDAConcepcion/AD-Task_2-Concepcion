@@ -1,1 +1,1 @@
-<?php  include BASE_PATH . "/index.php" ?>
+<?php include __DIR__ . '/../index.php'; ?>
